@@ -16,7 +16,10 @@ java {
 repositories {
 	mavenCentral()
 }
-
+//dependencias necesarias:
+//java.net.http → Para hacer solicitudes HTTP.
+//java.base → Incluido por defecto en Java.
+//com.fasterxml.jackson.databind → Para manejar JSON con Jackson.
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
