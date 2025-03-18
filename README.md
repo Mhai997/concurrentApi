@@ -49,3 +49,12 @@ Este enfoque puede aplicarse en escenarios como:
 Análisis de datos financieros: Obtener cotizaciones de múltiples fuentes simultáneamente.
 Monitoreo de redes sociales: Analizar hashtags más populares desde distintas plataformas.
 Gestión de imágenes: Descargar imágenes concurrentemente y calcular su tamaño total.
+
+📌 Explicación del Código
+El código implementa un servicio en Java 17 para obtener datos de una API pública de forma concurrente utilizando ExecutorService. Se basa en Jigsaw (modularidad) y usa Spring Boot para exponer una API REST.
+
+🎯 Conclusión
+✔ Uso eficiente de concurrencia con ExecutorService.
+✔ Modularidad con Jigsaw para reutilización del código.
+✔ Procesamiento eficiente de datos con Streams y Collectors.
+✔ HTTP moderno con HttpClient, evitando bibliotecas obsoletas.
