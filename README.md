@@ -1,4 +1,5 @@
 📌 Objetivo del Proyecto: Obtención Masiva de Datos con Concurrencia en Java
+
 Este proyecto tiene como objetivo demostrar cómo obtener datos de una API pública de manera eficiente utilizando concurrencia en Java. 
 Se busca maximizar el rendimiento del sistema mediante la ejecución de múltiples solicitudes en paralelo, evitando bloqueos y optimizando el tiempo de respuesta.
 
